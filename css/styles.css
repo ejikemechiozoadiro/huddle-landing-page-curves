@@ -48,12 +48,13 @@ h3{
     outline: 0;
     padding: 1rem 2.5rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 @media screen and (min-width:768px){
     .btn{
-        padding: 1.5rem 5rem;
-    }
+    padding: 1.5rem 5rem;
+     }
 }
 
 .btn--primary {
@@ -61,11 +62,8 @@ h3{
     color: var(--color-white);
 }
 
-.btn--subscribe {
-    background: var(--color-primary);
-    color: var(--color-white);
-    border-radius: 6px;
-    padding: 1.4rem 4.3rem;
+.btn--primary:hover{
+    background: var(--color-secondary);
 }
 
 .btn--small{
@@ -75,6 +73,10 @@ h3{
     background: none;
 }
 
+.btn--small:hover{
+    background: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+}
 
 /*Grids*/
 .grid{
@@ -113,3 +115,29 @@ h3{
     height: 20px;
 }
 
+
+/*Subscription form*/
+.subscribe{
+    background: var(--color-white);
+    border-radius: 4px;
+    border: 0;
+    margin-right: 2.5rem;
+    outline: 0;
+    padding: 1.2rem;
+    width: 25rem;
+}
+
+.subscribe:focus{
+    border: 1px solid var(--color-red);
+}
+
+.btn--subscribe {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 4px;
+    padding: 1.2rem 4rem;
+}
+
+.btn--subscribe:hover {
+    background: var(--color-secondary);
+}
