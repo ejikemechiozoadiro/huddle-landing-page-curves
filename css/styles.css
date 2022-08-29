@@ -1,0 +1,76 @@
+:root{
+    --color-primary: hsl(322, 100%, 66%);
+    --color-secondary: hsl(321, 100%, 78%); /*Active states*/
+    --color-red: hsl(0, 100%, 63%);
+    --color-body: hsl(192, 100%, 9%);
+    --color-white: #fff;
+    --color-background: hsl(207, 100%, 98%);
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.488rem;
+}
+
+h2{
+    font-size: 2.074rem;
+}
+
+h3{
+    font-size: 1.728rem;
+}
+
+/*Buttons*/
+.btn{
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    padding: 1rem 2.5rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width:768px){
+    .btn{
+        padding: 1.5rem 5rem;
+    }
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn--subscribe {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 6px;
+    padding: 1.4rem 4.3rem;
+}
+
+.btn--small{
+    padding: 1rem 2.5rem;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    background: none;
+}
