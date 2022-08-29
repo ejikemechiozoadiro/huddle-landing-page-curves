@@ -74,3 +74,28 @@ h3{
     border: 2px solid var(--color-primary);
     background: none;
 }
+
+
+/*Grids*/
+.grid{
+    display: grid;
+}
+
+.box{
+    height: 70px;
+}
+
+.box-one{
+    background-color: gold;
+}
+
+.box-two{
+    background-color: purple;
+}
+
+
+@media screen and (min-width:768px){
+.grid--1x2{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
