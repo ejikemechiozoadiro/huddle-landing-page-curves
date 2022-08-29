@@ -81,21 +81,19 @@ h3{
     display: grid;
 }
 
-.box{
-    height: 70px;
-}
-
-.box-one{
-    background-color: gold;
-}
-
-.box-two{
-    background-color: purple;
-}
-
-
 @media screen and (min-width:768px){
 .grid--1x2{
     grid-template-columns: repeat(2, 1fr);
 }
+}
+
+/*Navigation*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__image{
+    width: 150px;
+    height: 25px;
 }
