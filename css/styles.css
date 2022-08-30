@@ -141,3 +141,25 @@ h3{
 .btn--subscribe:hover {
     background: var(--color-secondary);
 }
+
+
+/*Info*/
+.info.grid{
+    justify-items: center;
+}
+
+.info__heading{
+    margin: 0;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.info__text{
+    margin-top: 0;
+    opacity: 0.4;
+    text-align: center;
+}
+
+.info__one {
+    margin-bottom: 8rem;
+}
