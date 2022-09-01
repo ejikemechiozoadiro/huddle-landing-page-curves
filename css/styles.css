@@ -76,6 +76,10 @@ h3{
     background: none;
 }
 
+.btn--small:focus {
+    color:var(--color-white)
+}
+
 .btn--small:hover{
     background: var(--color-secondary);
     border: 2px solid var(--color-secondary);
