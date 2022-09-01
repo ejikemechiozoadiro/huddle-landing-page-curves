@@ -32,11 +32,11 @@ h3{
 }
 
 h1{
-    font-size: 2.488rem;
+    font-size: 3.052rem;
 }
 
 h2{
-    font-size: 2.074rem;
+    font-size: 1.953rem;
 }
 
 h3{
@@ -86,6 +86,8 @@ h3{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 3rem 2rem 2rem;
 }
 
 .nav__image{
@@ -133,6 +135,25 @@ h3{
 
 .btn--subscribe:hover {
     background: var(--color-secondary);
+}
+
+
+/*Hero*/
+.hero{
+    text-align: center;
+}
+
+.hero__heading {
+    margin-bottom: 2rem;
+}
+
+.hero__text {
+    max-width: 700px;
+    margin: 0 auto 3.8rem;
+}
+
+.hero .btn {
+    padding: 1.5rem 5rem;
 }
 
 
@@ -316,9 +337,6 @@ h3{
     position: relative;
 }
 
-body{
-    margin-top: 14rem;
-}
 .footer::before {
     content: '';
     background: url(../images/bg-footer-top-mobile.svg);
